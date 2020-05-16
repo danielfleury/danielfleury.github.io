@@ -99,7 +99,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #777777;
+  color: #fff;
   opacity: 1;
   font-weight: 300;
 }
@@ -2137,7 +2137,7 @@ nav a:hover {
     height: 2000px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
   .banner-area .fullscreen {
     height: 1000px !important;
     border-radius: 50% 20% / 10% 40%;
@@ -2145,7 +2145,7 @@ nav a:hover {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 700px) {
   .banner-content {
     margin-top: 100px;
   }
@@ -2753,7 +2753,7 @@ nav a:hover {
 
 .summarytime p {
   font-size: 15px;
-
+width: 47vh;
 }
 
 .summarywhole {
@@ -2783,16 +2783,16 @@ nav a:hover {
 .summarytime p a:hover:after {
   left: 0;
   bottom: -2px;
-  width: 100%;
+  width: 50vh;
   height: 100%;
 }
 
 /* Experience Section */
 
 .experiencewhole {
-   margin-top: 25em;
+   margin-top: 38em;
     margin-left: -1.3em;
-        max-width: 100%;
+        width: 50vh;
 }
 
 
@@ -2827,6 +2827,7 @@ nav a:hover {
 
 .experiencetime p {
   font-size: 15px;
+    width: 20vh;
 }
 
 .experiencetime p a {
